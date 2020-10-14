@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :streams
-  resources 'users'
+  resources :users
   get "/users", to: "users#users"
   get 'welcome/index'
   resources :articles

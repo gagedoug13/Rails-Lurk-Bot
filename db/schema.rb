@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2020_10_11_125711) do
   create_table "streams", force: :cascade do |t|
     t.string "date"
     t.string "collection"
+    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

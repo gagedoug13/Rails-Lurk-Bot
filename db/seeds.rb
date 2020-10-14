@@ -5,8 +5,19 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# User.destroy_all
+# Stream.destroy_all
 
-
-gage = User.create({
+nation = User.create({
     username: "nation_live"
+})
+
+stream = Stream.create({
+    date: "2016-12-05",
+    collection: "some array of users",
+    user_id: 1
+})
+
+user2 = User.create({
+    username: "americanape"
 })
