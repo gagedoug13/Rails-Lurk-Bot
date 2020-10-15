@@ -9,3 +9,10 @@ Rails.application.load_tasks
 task :get_viewer_list do
     ruby "get_viewer_list.rb"
 end
+
+
+# class person {
+#     def get_stats(height) 
+#         puts "this man is" + height + "feet tall"
+#     end
+# }
