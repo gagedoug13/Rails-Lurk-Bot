@@ -4,3 +4,8 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+
+task :get_viewer_list do
+    ruby "get_viewer_list.rb"
+end
